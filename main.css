@@ -67,7 +67,7 @@ a:hover{
 
 .services{
     background-color: #F9FAF8;
-    display: flex;
+    /* display: flex; */
 }
 
 .services >h4{
@@ -78,10 +78,11 @@ a:hover{
 }
 
 .images-display{
-    
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.images{
-    width: 50px;
-    height: 40px;
+.images > img{
+    width: 100px;  
+    height: 100px;
 }
