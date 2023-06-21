@@ -79,10 +79,19 @@ a:hover{
 
 .images-display{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin: 0 20%;
 }
 
 .images > img{
-    width: 100px;  
-    height: 100px;
+    width: 200px;  
+    height: 150px;
+    border: #3882F6 3px solid;
+}
+
+.images > h4{
+    text-align: center;
+    padding-right: 30px;
+    font-size: 12px;
+    color: black;
 }
